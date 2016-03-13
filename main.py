@@ -2,6 +2,9 @@ import pygame
 import random
 import time
 
+print "Welcome to Master"
+print "Use the arrow keys to move"
+
 class Point:
     def __init__(self, x, y):
         self.x = x
