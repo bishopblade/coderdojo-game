@@ -3,8 +3,6 @@ import random
 import time
 time.sleep(1)
 print "This is the new game for the new generation!"
-tk = Tk()
-canvas = Canvas(tk, width=640, height=480)
 x = 4
 y = 5
 width = 20
@@ -55,7 +53,7 @@ def moveDown():
 print "move with the arrow keys"
 drawGame()
 
-'''import turtle, random, math
+import turtle, random, math
 
 class Point(object):
   """2D Math-Vector class. contains x, y used to positioning and 2D Math"""
@@ -172,5 +170,3 @@ window.onkey(moveDown, "down")
 window.onclick(mouseClick)
 window.listen()
 drawEverything()
-'''
-print ("Hi")
