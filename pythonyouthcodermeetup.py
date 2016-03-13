@@ -1,9 +1,7 @@
-##import pygame
+import pygame
 import random
 import time
-import turtle
 time.sleep(1)
-print "This is the new game for the new generation!"
 x = 4
 y = 5
 width = 20
