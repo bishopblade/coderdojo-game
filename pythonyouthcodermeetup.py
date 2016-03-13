@@ -3,6 +3,10 @@ from tkinter import ttk
 import random
 import turtle
 import time
+time.sleep(1)
+print "This is the new game for the new generation!"
+tk = Tk()
+canvas = Canvas(tk, width=640, height=480)
 x = 4
 y = 5
 width = 20
