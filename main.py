@@ -4,7 +4,7 @@ import time
 
 class Point(pygame.sprite.Sprite):
     def __init__(self, x, y, screen):
-        pygame.sprite.Sprite.__init__(self)
+        Sprite.__init__(self)
         self.x = x
         self.y = y
         self.screen = screen
