@@ -1,7 +1,5 @@
-from tkinter import *
-from tkinter import ttk
+import pygame
 import random
-import turtle
 import time
 time.sleep(1)
 print "This is the new game for the new generation!"
@@ -24,8 +22,8 @@ def drawGame():
         line += icon
       else:
         line += '.'
-    print(line)
-  print('\n')
+    print line
+  print '\n'
 
 def moveLeft():
   global x
@@ -45,16 +43,16 @@ def moveDown():
   drawGame()
   
 # the turtle library for the key input methods only
-import turtle
-window = turtle.Screen()
-window.onkey(moveLeft, "left")
-window.onkey(moveRight, "right")
-window.onkey(moveUp, "up")
-window.onkey(moveDown, "down")
-window.listen()
+##import turtle
+##window = turtle.Screen()
+##window.onkey(moveLeft, "left")
+##window.onkey(moveRight, "right")
+##window.onkey(moveUp, "up")
+##window.onkey(moveDown, "down")
+##window.listen()
 
 # show the game
-print("move with the arrow keys")
+print "move with the arrow keys"
 drawGame()
 
 '''import turtle, random, math
