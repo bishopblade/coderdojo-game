@@ -1,4 +1,8 @@
-# game data
+from tkinter import *
+from tkinter import ttk
+import random
+import turtle
+import time
 x = 4
 y = 5
 width = 20
@@ -167,3 +171,4 @@ window.onclick(mouseClick)
 window.listen()
 drawEverything()
 '''
+print ("Hi")
