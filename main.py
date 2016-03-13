@@ -1,4 +1,6 @@
-from tkinter import *
+from Tkinter import *
 import random
 import time
-print ("Hello World")
+print "Hello World"
+
+
