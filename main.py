@@ -7,6 +7,10 @@ print "Welcome to Dot's Adventure"
 print "Use the arrow keys to move"
 screen = pygame.display.set_mode([640, 260])
 
+coins = 50
+coins_won = random.randint(0,10)
+coins_lost = random.randint(0,3)
+
 class Player(pygame.sprite.Sprite):
     def __init__(self, x, y, screen):
         Sprite.__init__(self)
