@@ -4,6 +4,7 @@ import time
 
 print "Welcome to Master"
 print "Use the arrow keys to move"
+screen = pygame.display.set_mode([640, 260])
 
 class Point(pygame.sprite.Sprite):
     def __init__(self, x, y, screen):
