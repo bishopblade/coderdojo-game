@@ -20,4 +20,4 @@ class Point(pygame.sprite.Sprite):
     def display(self):
         self.shape = pygame.draw.point(self.x, self.y)
         self.screen.blit(self.shape)
-    
+        self.screen.update()
