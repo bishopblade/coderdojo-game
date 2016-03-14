@@ -2,7 +2,7 @@ import pygame
 import random
 import time
 
-print "Welcome to Master"
+print "Welcome to Dot's Adventure"
 print "Use the arrow keys to move"
 screen = pygame.display.set_mode([640, 260])
 
@@ -20,3 +20,4 @@ class Point(pygame.sprite.Sprite):
     def display(self):
         self.shape = pygame.draw.point(self.x, self.y)
         self.screen.blit(self.shape)
+    
