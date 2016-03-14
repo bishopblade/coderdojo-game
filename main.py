@@ -1,6 +1,7 @@
 import pygame
 import random
 import time
+pygame.init()
 
 print "Welcome to Dot's Adventure"
 print "Use the arrow keys to move"
