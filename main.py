@@ -5,8 +5,9 @@ import time
 print "Welcome to Master"
 print "Use the arrow keys to move"
 
-class Point:
+class Point(pygame.sprite.Sprite):
     def __init__(self, x, y, screen):
+        Sprite.__init__(self)
         self.x = x
         self.y = y
         self.screen = screen
