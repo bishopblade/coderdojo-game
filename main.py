@@ -14,6 +14,7 @@ coins_lost = random.randint(0,3)
 class Player(pygame.sprite.Sprite):
     def __init__(self, x, y, screen):
         Sprite.__init__(self)
+        self.image = "E:/Users/kids/Desktop/coderdojo-game/imgres.png"
         self.x = x
         self.y = y
         self.screen = screen
@@ -26,3 +27,6 @@ class Player(pygame.sprite.Sprite):
         self.shape = pygame.draw.point(self.x, self.y)
         self.screen.blit(self.shape)
         self.screen.update()
+class Enemy(pygame.sprite.Sprite):
+    def __init__(self, screen, x, y):
+        
